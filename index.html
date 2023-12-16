@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    
+<div class="meme-generator">
+    <button class="generate-meme-btn">Generate a Christmas Tree Idea</button>
+    <h2 class="meme-title">Loading</h2>
+
+    <img src="" alt="" class="meme-img"/>
+    <div class="meme-author"></div>
+    <div class="radio-player">
+        <audio src="..." class="visually-hidden" id="stream">
+            <div class="player-controls">
+                <button name="play-pause" class="button play-pause-button" aria-label="Play/pause">
+                  <i class="fas fa-play" aria-hidden></i>
+                </button>
+              
+                <div class="volume-and-title">
+                  <div class="currently-playing" aria-label="Currently playing">
+                    <span class="currently-playing-label">Now playing on Some Radio Station</span>
+                    <span class="currently-playing-title">Listen to Some Radio Station</span>
+                  </div>
+              
+                  <div class="volume-controls">
+                    <button name="mute" class="button mute-button" aria-label="Mute/unmute">
+                      <i class="fas fa-volume-down" aria-hidden></i>
+                    </button>
+              
+                    <input type="range" name="volume" class="volume" min="0" max="1" step="0.05" value="0.2" aria-label="Volume">
+                  </div>
+                </div>
+              </div>
+          </audio>
+        </div>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
