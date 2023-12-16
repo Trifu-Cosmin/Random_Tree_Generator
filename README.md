@@ -15,3 +15,11 @@ And you will instantly get a Christmas Tree
 
 
 It's simple and quick just like that.
+
+
+
+
+
+Contribuitors:
+Trifu Cosmin-Ionut: HTML+JS Development
+Ticusi Dumitrescu Costi Nicolae: HTML+CSS Styling
